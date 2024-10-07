@@ -123,14 +123,14 @@ public class TechJobs {
 
        // System.out.println("printJobs is not implemented yet");
         if(someJobs.isEmpty()){
-            System.out.println("No Results");
+            System.out.print("No Results");
         }
         for(HashMap<String,String> job: someJobs){
-            System.out.println("*****");
+            System.out.println("\n*****");
             for(Map.Entry<String,String> oneJob: job.entrySet()){
-                System.out.println(oneJob.getKey()+":"+oneJob.getValue());
+                System.out.println(oneJob.getKey()+": "+oneJob.getValue());
             }
-            System.out.println("*****\n");
+            System.out.println("*****");
         }
 
     }
