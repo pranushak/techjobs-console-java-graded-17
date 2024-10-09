@@ -70,5 +70,4 @@ public class TechJobsTest {
         assertEquals(expected.replaceAll("\r\n?", "\n"), output.replaceAll("\r\n?", "\n"));
     }
 
-
 }
